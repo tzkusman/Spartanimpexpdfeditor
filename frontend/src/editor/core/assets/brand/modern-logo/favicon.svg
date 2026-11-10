@@ -1,0 +1,48 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="spartanGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="spartanCrimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded icon tile -->
+  <rect width="512" height="512" rx="100" ry="100" fill="url(#bgGrad)"/>
+  <rect x="12" y="12" width="488" height="488" rx="88" ry="88" fill="none" stroke="url(#spartanGold)" stroke-width="8" stroke-opacity="0.4"/>
+
+  <!-- Spartan Shield (Aegis) -->
+  <path d="M120 110C120 110 200 70 256 70C312 70 392 110 392 110C392 110 422 250 392 340C362 420 296 460 256 476C216 460 150 420 120 340C90 250 120 110 120 110Z"
+        fill="url(#spartanCrimson)" stroke="url(#spartanGold)" stroke-width="12"/>
+
+  <!-- Top Helmet Plume / Crest -->
+  <path d="M256 90C315 90 360 120 380 165C350 170 325 185 305 210C285 180 270 160 256 160C242 160 227 180 207 210C187 185 162 170 132 165C152 120 197 90 256 90Z"
+        fill="url(#spartanGold)"/>
+
+  <!-- Helmet Skull Dome -->
+  <path d="M180 220C180 165 210 150 256 150C302 150 332 165 332 220L328 300L184 300L180 220Z"
+        fill="#991B1B"/>
+
+  <!-- Golden Brow Band -->
+  <path d="M172 290C172 290 216 278 256 278C296 278 340 290 340 290L342 312C342 312 296 300 256 300C216 300 170 312 170 312L172 290Z"
+        fill="url(#spartanGold)"/>
+
+  <!-- Cheek Guards -->
+  <path d="M172 312L222 312L228 375L200 420L178 375L172 312Z" fill="#7F1D1D"/>
+  <path d="M340 312L290 312L284 375L312 420L334 375L340 312Z" fill="#7F1D1D"/>
+
+  <!-- Nose Guard (Nasal Bar) -->
+  <path d="M246 295H266V390L256 405L246 390VZ" fill="url(#spartanGold)"/>
+
+  <!-- Eye Slits -->
+  <polygon points="214,330 242,342 224,352 208,345" fill="#FFFFFF"/>
+  <polygon points="298,330 270,342 288,352 304,345" fill="#FFFFFF"/>
+</svg>
+

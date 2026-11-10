@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="spartanGradA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#C53030" />
+    </linearGradient>
+  </defs>
+  <!-- Spartan Shield Base -->
+  <path class="sui-brandmark__a" d="M14 10C14 10 24 6 32 6C40 6 50 10 50 10C50 10 54 28 50 42C46 52 38 58 32 60C26 58 18 52 14 42C10 28 14 10 14 10Z" fill="#C53030" />
+  <!-- Spartan Helmet Crest -->
+  <path class="sui-brandmark__b" d="M32 9C40 9 46 13 49 19C45 20 41 22 39 25C36 21 34 18 32 18C30 18 28 21 25 25C23 22 19 20 15 19C18 13 24 9 32 9Z" fill="#D97706" />
+  <!-- Helmet Cheek & Nose -->
+  <path d="M22 28C22 22 26 20 32 20C38 20 42 22 42 28L41 40L35 48L32 44L29 48L23 40L22 28Z" fill="#9B1C1C" />
+  <path d="M31 22H33V42L32 45L31 42VZ" fill="#FBBF24" />
+</svg>

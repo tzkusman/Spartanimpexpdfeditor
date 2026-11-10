@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="150" viewBox="0 0 240 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+    <g class="spartan-mark">
+      <defs>
+        <linearGradient id="crestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#FBBF24" />
+          <stop offset="50%" stop-color="#FF4D4D" />
+          <stop offset="100%" stop-color="#D92626" />
+        </linearGradient>
+        <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#334155" />
+          <stop offset="100%" stop-color="#1E293B" />
+        </linearGradient>
+        <filter id="markShadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="rgba(0,0,0,0.6)" />
+        </filter>
+      </defs>
+
+      <!-- Background Shield (Subtle Aegis) -->
+      <path d="M93 12C93 12 110 6 120 6C130 6 147 12 147 12C147 12 153 38 147 56C142 69 128 80 120 84C112 80 98 69 93 56C87 38 93 12 93 12Z" 
+            fill="url(#shieldGrad)" stroke="#FBBF24" stroke-width="1.5" stroke-opacity="0.7" />
+
+      <!-- Top Crest Arch / Plume -->
+      <path d="M120 9C133 9 144 14 150 24C143 25 137 28 134 32C129 25 125 21 120 21C115 21 111 25 106 32C103 28 97 25 90 24C96 14 107 9 120 9Z" 
+            fill="url(#crestGrad)" />
+
+      <!-- Crest Ridge Ridges -->
+      <path d="M118 10H122V21H118VZ" fill="#FBBF24" />
+      <path d="M127 12L130 14L127 22L124 21Z" fill="#FBBF24" />
+      <path d="M113 12L110 14L113 22L116 21Z" fill="#FBBF24" />
+
+      <!-- Helmet Upper Skull Cap -->
+      <path d="M102 33C102 24 109 21 120 21C131 21 138 24 138 33C138 41 136 48 136 48L104 48C104 48 102 41 102 33Z" 
+            fill="#FF4D4D" />
+
+      <!-- Golden Brow Band -->
+      <path d="M101 46C101 46 110 44 120 44C130 44 139 46 139 46L140 49C140 49 130 47 120 47C110 47 100 49 100 49L101 46Z" 
+            fill="#FBBF24" />
+
+      <!-- Cheek Guards & Face Protection -->
+      <!-- Left Cheek Guard -->
+      <path d="M101 49L109 49L111 58L117 58L117 67L112 75L103 66L101 49Z" fill="#D92626" />
+      <!-- Right Cheek Guard -->
+      <path d="M139 49L131 49L129 58L123 58L123 67L128 75L137 66L139 49Z" fill="#D92626" />
+
+      <!-- Nose Guard Center Bar -->
+      <path d="M118.5 47H121.5V67L120 70L118.5 67VZ" fill="#FBBF24" />
+
+      <!-- Eye Openings (Negative Space) -->
+      <path d="M109 52L116 54L111 56L107 55Z" fill="#0F172A" />
+      <path d="M131 52L124 54L129 56L133 55Z" fill="#0F172A" />
+    </g>
+  
+
+  <!-- Typography -->
+  <g id="brand-text">
+    <text x="120" y="116" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="21" font-weight="900" letter-spacing="3.5">
+      <tspan fill="#F8FAFC">SPARTAN</tspan><tspan fill="#FF4D4D">IMPEX</tspan>
+    </text>
+    <text x="120" y="132" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="700" fill="#94A3B8" letter-spacing="3.5">
+      SECURE PDF PLATFORM
+    </text>
+  </g>
+</svg>
